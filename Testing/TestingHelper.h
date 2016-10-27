@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface TestingHelper : NSObject
++(void)fetchImage:(NSURL *)url inCell:(UITableViewCell *)cell;
 
 @end

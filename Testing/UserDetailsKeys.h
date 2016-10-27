@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface userDetailsKeys : NSObject
+@interface UserDetailsKeys : NSObject
 
 
 #define RANDOM_GENDER @"gender"

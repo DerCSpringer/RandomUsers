@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UserDetailsTVC : UITableViewController
+@property (nonatomic, strong)NSDictionary *userDetails;
+
 
 @end

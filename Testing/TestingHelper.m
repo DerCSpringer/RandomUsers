@@ -10,4 +10,21 @@
 
 @implementation TestingHelper
 
++(void)fetchImage:(NSURL *)url inCell:(UITableViewCell *)cell
+{
+    dispatch_queue_t fetchImage = dispatch_queue_create("Thumbnail fetcher", NULL);
+    dispatch_async(fetchImage, ^{
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        UIImage *thumbnail = [[UIImage alloc] initWithData:data];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            cell.imageView.image = thumbnail;
+            
+        });
+    });
+    
+    
+    
+}
+
 @end

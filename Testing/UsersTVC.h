@@ -10,4 +10,7 @@
 
 @interface UsersTVC : UITableViewController
 
+@property (nonatomic, strong) NSArray *userList;
+
+
 @end

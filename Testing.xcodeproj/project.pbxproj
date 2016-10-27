@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		86721E741DC14D2200013374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86721E731DC14D2200013374 /* main.m */; };
 		86721E771DC14D2200013374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86721E761DC14D2200013374 /* AppDelegate.m */; };
-		86721E7A1DC14D2200013374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86721E791DC14D2200013374 /* ViewController.m */; };
 		86721E7D1DC14D2200013374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86721E7B1DC14D2200013374 /* Main.storyboard */; };
 		86721E801DC14D2200013374 /* Testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86721E7E1DC14D2200013374 /* Testing.xcdatamodeld */; };
 		86721E821DC14D2200013374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86721E811DC14D2200013374 /* Assets.xcassets */; };
-		86721E851DC14D2200013374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86721E831DC14D2200013374 /* LaunchScreen.storyboard */; };
+		86721E8D1DC14E0A00013374 /* Todo in Resources */ = {isa = PBXBuildFile; fileRef = 86721E8C1DC14E0A00013374 /* Todo */; };
+		86721E901DC1508300013374 /* UsersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 86721E8F1DC1508300013374 /* UsersTVC.m */; };
+		86721E931DC1509F00013374 /* UserDetailsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 86721E921DC1509F00013374 /* UserDetailsTVC.m */; };
+		86721E961DC150EF00013374 /* FetchUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86721E951DC150EF00013374 /* FetchUserData.m */; };
+		86C8C1041DC1AE3C00801558 /* TestingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C8C1031DC1AE3C00801558 /* TestingHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +24,20 @@
 		86721E731DC14D2200013374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86721E751DC14D2200013374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86721E761DC14D2200013374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86721E781DC14D2200013374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86721E791DC14D2200013374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86721E7C1DC14D2200013374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86721E7F1DC14D2200013374 /* Testing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Testing.xcdatamodel; sourceTree = "<group>"; };
 		86721E811DC14D2200013374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		86721E841DC14D2200013374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86721E861DC14D2200013374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86721E8C1DC14E0A00013374 /* Todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Todo; path = Testing/Todo; sourceTree = "<group>"; };
+		86721E8E1DC1508300013374 /* UsersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTVC.h; sourceTree = "<group>"; };
+		86721E8F1DC1508300013374 /* UsersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTVC.m; sourceTree = "<group>"; };
+		86721E911DC1509E00013374 /* UserDetailsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsTVC.h; sourceTree = "<group>"; };
+		86721E921DC1509F00013374 /* UserDetailsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsTVC.m; sourceTree = "<group>"; };
+		86721E941DC150EF00013374 /* FetchUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchUserData.h; sourceTree = "<group>"; };
+		86721E951DC150EF00013374 /* FetchUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchUserData.m; sourceTree = "<group>"; };
+		86C2EB741DC1979A00750D31 /* UserDetailsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsKeys.h; sourceTree = "<group>"; };
+		86C8C1021DC1AE3C00801558 /* TestingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingHelper.h; sourceTree = "<group>"; };
+		86C8C1031DC1AE3C00801558 /* TestingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 		86721E661DC14D2100013374 = {
 			isa = PBXGroup;
 			children = (
+				86721E8C1DC14E0A00013374 /* Todo */,
 				86721E711DC14D2200013374 /* Testing */,
 				86721E701DC14D2200013374 /* Products */,
 			);
@@ -62,11 +73,17 @@
 			children = (
 				86721E751DC14D2200013374 /* AppDelegate.h */,
 				86721E761DC14D2200013374 /* AppDelegate.m */,
-				86721E781DC14D2200013374 /* ViewController.h */,
-				86721E791DC14D2200013374 /* ViewController.m */,
 				86721E7B1DC14D2200013374 /* Main.storyboard */,
+				86721E8E1DC1508300013374 /* UsersTVC.h */,
+				86721E8F1DC1508300013374 /* UsersTVC.m */,
+				86721E941DC150EF00013374 /* FetchUserData.h */,
+				86721E951DC150EF00013374 /* FetchUserData.m */,
+				86C8C1021DC1AE3C00801558 /* TestingHelper.h */,
+				86C8C1031DC1AE3C00801558 /* TestingHelper.m */,
+				86721E911DC1509E00013374 /* UserDetailsTVC.h */,
+				86721E921DC1509F00013374 /* UserDetailsTVC.m */,
+				86C2EB741DC1979A00750D31 /* UserDetailsKeys.h */,
 				86721E811DC14D2200013374 /* Assets.xcassets */,
-				86721E831DC14D2200013374 /* LaunchScreen.storyboard */,
 				86721E861DC14D2200013374 /* Info.plist */,
 				86721E7E1DC14D2200013374 /* Testing.xcdatamodeld */,
 				86721E721DC14D2200013374 /* Supporting Files */,
@@ -140,7 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86721E851DC14D2200013374 /* LaunchScreen.storyboard in Resources */,
+				86721E8D1DC14E0A00013374 /* Todo in Resources */,
 				86721E821DC14D2200013374 /* Assets.xcassets in Resources */,
 				86721E7D1DC14D2200013374 /* Main.storyboard in Resources */,
 			);
@@ -153,10 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86721E7A1DC14D2200013374 /* ViewController.m in Sources */,
 				86721E771DC14D2200013374 /* AppDelegate.m in Sources */,
 				86721E801DC14D2200013374 /* Testing.xcdatamodeld in Sources */,
+				86C8C1041DC1AE3C00801558 /* TestingHelper.m in Sources */,
+				86721E901DC1508300013374 /* UsersTVC.m in Sources */,
 				86721E741DC14D2200013374 /* main.m in Sources */,
+				86721E931DC1509F00013374 /* UserDetailsTVC.m in Sources */,
+				86721E961DC150EF00013374 /* FetchUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,14 +189,6 @@
 				86721E7C1DC14D2200013374 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		86721E831DC14D2200013374 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86721E841DC14D2200013374 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,6 +325,7 @@
 				86721E8B1DC14D2200013374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

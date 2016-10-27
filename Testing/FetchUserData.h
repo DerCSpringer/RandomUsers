@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UsersTVC.h"
 
-@interface FetchUserData : NSObject
+@interface FetchUserData : UsersTVC
+
+@property (nonatomic, strong) NSURL *usersURL;
+@property (nonatomic, strong) NSDictionary *results;
+
+-(void)fetchUsers;
 
 @end
