@@ -31,9 +31,16 @@
                                                                             options:0
                                                                               error:NULL];
         NSArray *results = [propertyListResults valueForKeyPath:@"results"];
+        NSMutableArray *photos = [[NSMutableArray alloc] init];
+        for (NSDictionary *user in results) {
+            NSURL *url = [NSURL URLWithString:[user valueForKeyPath:RANDOM_PICTURE_THUMBNAIL]];
+            NSData *data = [NSData dataWithContentsOfURL:url];
+            [photos addObject:data];
+        }
 
         dispatch_async(dispatch_get_main_queue(), ^{
             self.userList = results;
+            self.photos = photos;
         });
     });
 }

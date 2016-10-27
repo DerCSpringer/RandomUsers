@@ -62,6 +62,7 @@
     [name appendString:[user valueForKeyPath:RANDOM_NAME_LAST]];
     
     cell.textLabel.text = name;
+    cell.imageView.image = [UIImage imageWithData:self.photos[indexPath.row]];
     
     return cell;
 }

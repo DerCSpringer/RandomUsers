@@ -11,6 +11,7 @@
 @interface UsersTVC : UITableViewController
 
 @property (nonatomic, strong) NSArray *userList;
+@property (nonatomic, strong) NSArray *photos;
 
 
 @end
