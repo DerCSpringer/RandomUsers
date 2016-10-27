@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TestingHelper.h
 //  Testing
 //
 //  Created by Patricia Springer on 10/26/16.
 //  Copyright © 2016 Daniel Springer. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface TestingHelper : NSObject
 
 @end
-
